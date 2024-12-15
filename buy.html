@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Products - Aqua Agriculture Market</title>
+    <link rel="stylesheet" href="buy.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Aqua Agriculture Market</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Signup</a></li>
+                <li><a href="buy.html">Buy Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Bar Section -->
+    <section class="search-bar-container">
+        <input type="text" id="searchInput" placeholder="Search products..." />
+        <button type="button" onclick="searchProducts()">Search</button>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-container">
+        <div class="product-card">
+            <img src="crab.webp" alt="Product 1">
+            <h2>Crabs</h2>
+            <p class="price">$20.00</p>
+            <p class="description">Quantity of 5 crabs.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="fish.jpeg" alt="Product 2">
+            <h2>Fish</h2>
+            <p class="price">$35.00</p>
+            <p class="description">5kg of fishes.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="crab2.jpg" alt="Product 3">
+            <h2>Crab</h2>
+            <p class="price">$45.00</p>
+            <p class="description">XL 10kgs for sale.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="crab.webp" alt="Product 1">
+            <h2>Crabs</h2>
+            <p class="price">$20.00</p>
+            <p class="description">Quantity of 5 crabs.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="fish.jpeg" alt="Product 2">
+            <h2>Fish</h2>
+            <p class="price">$35.00</p>
+            <p class="description">5kg of fishes.</p>
+        </div>
+
+        <!-- Add more product cards as needed -->
+    </section>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Aqua Agriculture Market. All rights reserved. | Privacy Policy | Terms of Service</p>
+        </div>
+    </footer>
+
+    <script>
+        function searchProducts() {
+            const query = document.getElementById('searchInput').value;
+            alert("Search functionality coming soon for: " + query);
+        }
+    </script>
+</body>
+
+</html>

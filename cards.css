@@ -1,0 +1,19 @@
+section{
+background-color: cadetblue;}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: cadetblue;
+}
+.about{
+    background-color: blanchedalmond;
+}
+.contact{
+    background-color: aqua;
+
+}
+.socialmedia{
+    background-color: blueviolet;
+
+}
